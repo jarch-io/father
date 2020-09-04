@@ -1,0 +1,25 @@
+{
+    "name": "jarch/father",
+    "description": "N/A",
+    "type": "package",
+    "version": "1.0.1",
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "secure-http": false
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jarch-io/children"
+        }
+    ],
+    "require": {
+        "jarch/children": "dev-master"
+    }
+}
